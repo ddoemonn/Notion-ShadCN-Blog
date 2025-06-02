@@ -4,6 +4,12 @@
 
 A beautiful, fast, and modern blog powered by Notion as CMS and built with Next.js 15 + ShadCN/UI. No database setup, no complex configuration - just connect your Notion workspace and you're ready to go!
 
+## 🖼️ Screenshots
+<img width="1710" alt="Screenshot 2025-06-03 at 00 40 58" src="https://github.com/user-attachments/assets/dca8c148-3753-4b5c-9440-7d84b2a3af61" />
+<img width="1710" alt="Screenshot 2025-06-03 at 00 44 53" src="https://github.com/user-attachments/assets/645821cd-4ca1-4640-b011-71c32405886b" />
+<img width="1710" alt="Screenshot 2025-06-03 at 00 45 01" src="https://github.com/user-attachments/assets/a417a462-d859-4f87-980d-c5f7058de57c" />
+
+
 ## ✨ Features
 
 - 🎨 **Beautiful UI** - Clean, modern design with ShadCN/UI components
@@ -21,8 +27,8 @@ A beautiful, fast, and modern blog powered by Notion as CMS and built with Next.
 
 ### 1. Fork & Clone
 ```bash
-git clone https://github.com/yourusername/notion-shadcn-blog
-cd notion-shadcn-blog
+git clone https://github.com/ddoemonn/Notion-ShadCN-Blog
+cd Notion-ShadCN-Blog
 npm install
 ```
 
@@ -35,7 +41,6 @@ Edit `.env.local` with your info:
 ```env
 # 🔑 Notion API (Required)
 NOTION_SECRET=your_notion_integration_secret_here
-NOTION_DATABASE_ID=your_notion_database_id_here
 
 # 👤 Your Personal Info
 USER_NAME="Your Name"
@@ -64,17 +69,10 @@ Create a Notion database with these properties:
 
 *Or just use any existing Notion pages - the blog auto-discovers all your content!*
 
-### 5. Connect & Share
-1. Share your Notion database/pages with your integration
-2. Copy the database ID from URL → This is your `NOTION_DATABASE_ID`
-
 ### 6. Run & Deploy
 ```bash
 npm run dev
 ```
-
-**Deploy to Vercel:**
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/notion-shadcn-blog)
 
 ## 🛠️ Tech Stack
 
