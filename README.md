@@ -59,16 +59,6 @@ NEXT_PUBLIC_SITE_URL="https://yourdomain.com"
 3. Give it a name (e.g., "My Blog")
 4. Copy the "Internal Integration Token" → This is your `NOTION_SECRET`
 
-### 4. Setup Your Notion Database (Optional)
-Create a Notion database with these properties:
-- **Title** (Title)
-- **Description** (Text)
-- **Tags** (Multi-select)
-- **Status** (Select: Published/Draft)
-- **Cover** (Files)
-
-*Or just use any existing Notion pages - the blog auto-discovers all your content!*
-
 ### 6. Run & Deploy
 ```bash
 npm run dev
