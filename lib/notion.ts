@@ -49,10 +49,6 @@ export const discoverDatabases = cache(async () => {
 
 export const getAllPosts = cache(async (): Promise<BlogPost[]> => {
   try {
-    if (process.env.NOTION_DATABASE_ID) {
-      return await getPostsFromDatabase(process.env.NOTION_DATABASE_ID)
-    }
-
     const databases = await discoverDatabases()
     const allPosts: BlogPost[] = []
 
